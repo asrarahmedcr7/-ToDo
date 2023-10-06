@@ -1,0 +1,95 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.5em;
+  line-height: 1.1;
+  margin: auto;
+}
+
+.addButton {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.0em;
+  font-size: 1.2em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #eeff02;
+  cursor: pointer;
+  color:#1a1a1a;
+  transition: border-color 0.5s;
+  text-align: center;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+
+.addButton:hover {
+  border-color: #ffff;
+}
+
+.myHeading {
+  color:grey;
+  text-align: left;
+}
+
+.input {
+  padding: 15px 20px 10px 10px;
+  border: 2px solid;
+  border-radius: 4px;
+  border-color: black;
+  font-size: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.edit-input {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  padding: 5px;
+  
+}
+
+.editButton {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.0em;
+  font-size: 0.8em; font-weight: 500; font-family: inherit;
+  background-color: #dd20bb;
+  cursor: pointer;
+  color:#1a1a1a;
+  transition: border-color 0.25s;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+
+.editButton:hover {
+  border-color: #ff90eb;
+}
+
+.ListItem {
+  border: 2px solid powderblue;
+  border-radius: 10px;
+  margin: 10px;
+  transition: background-color 0.4s;
+}
+.ListItem:hover {
+  background-color: greenyellow;
+}
